@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/happetite/static/css/main.55ace832.chunk.css",
-    "main.js": "/happetite/static/js/main.5f65d699.chunk.js",
-    "main.js.map": "/happetite/static/js/main.5f65d699.chunk.js.map",
+    "main.js": "/happetite/static/js/main.a800d82b.chunk.js",
+    "main.js.map": "/happetite/static/js/main.a800d82b.chunk.js.map",
     "runtime-main.js": "/happetite/static/js/runtime-main.115dbdee.js",
     "runtime-main.js.map": "/happetite/static/js/runtime-main.115dbdee.js.map",
     "static/css/2.05b98d3a.chunk.css": "/happetite/static/css/2.05b98d3a.chunk.css",
@@ -37,6 +37,6 @@
     "static/css/2.05b98d3a.chunk.css",
     "static/js/2.b95cf3c6.chunk.js",
     "static/css/main.55ace832.chunk.css",
-    "static/js/main.5f65d699.chunk.js"
+    "static/js/main.a800d82b.chunk.js"
   ]
 }
