@@ -5,7 +5,7 @@ import lady from '../../images/lady.jpg'
 function Intro1() {
   return (
     <div style={{backgroundColor:'#f5edf2', paddingBottom:'60px', paddingTop:'60px'}} id="about">
-    <div className="card" style={{width:'1000px', margin: '0 auto', boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px'}}>
+    <div className="card" style={{width:'1000px', margin: '0 auto',backgroundColor:'white', boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px'}}>
       <div className="row no-gutters">
         {/* <div className="col-md-4">
         <img src={lady} width="100%" height="100%"/>

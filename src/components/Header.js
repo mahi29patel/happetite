@@ -123,7 +123,7 @@ const Header = ({ loggedIn, onLogin, user, setUser,
 
     const onFailure = (res) => {
         console.log('Login failed:', res);
-        alert('Google Sign In was unsuccessful. Try again later');
+        // alert('Google Sign In was unsuccessful. Try again later');
   };
   
   const logout = () => {
@@ -176,7 +176,7 @@ const Header = ({ loggedIn, onLogin, user, setUser,
              
           >Modules</Link></Nav.Link>
          
-          <Nav.Link href="/FAQ" style={{fontSize:'medium', fontWeight:'400'}}>
+          <Nav.Link href="#/FAQ" style={{fontSize:'medium', fontWeight:'400'}}>
            FAQ</Nav.Link>
         
            <Nav.Link  style={{fontSize:'medium', fontWeight:'400'}}><Link
@@ -194,7 +194,7 @@ const Header = ({ loggedIn, onLogin, user, setUser,
         
         
         {loggedIn ? (<Nav>
-          <Nav.Link href='/helpline' style={{ fontSize: 'medium', fontWeight: '400', paddingTop: '20px' }}>
+          <Nav.Link href='#/helpline' style={{ fontSize: 'medium', fontWeight: '400', paddingTop: '20px' }}>
             Helplines
             </Nav.Link>
           <Nav.Link style={{ paddingTop: '18px' }}>
@@ -221,7 +221,7 @@ const Header = ({ loggedIn, onLogin, user, setUser,
                 
             </Nav.Link>
         </Nav>) : (<Nav>
-            <Nav.Link href='/helpline' style={{fontSize:'medium', fontWeight:'400',paddingTop:'15px'}}>Helplines</Nav.Link>
+            <Nav.Link href='#/helpline' style={{fontSize:'medium', fontWeight:'400',paddingTop:'15px'}}>Helplines</Nav.Link>
             <Nav.Link style={{ paddingTop: '14px' }}>
           <GoogleLogin
             clientId={clientId}

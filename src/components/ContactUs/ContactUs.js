@@ -42,9 +42,9 @@ const ContactUs = () => {
             style={{fontSize:'medium', fontWeight:'800', marginLeft:'-10px', marginRight:'-12px'}}>Home</Link></Nav.Link>
           
           {' -'}
-          <Nav.Link href="/References" style={{fontSize:'medium', fontWeight:'800', marginLeft:'-10px', marginRight:'-12px'}}>References</Nav.Link>
+          <Nav.Link href="#/References" style={{fontSize:'medium', fontWeight:'800', marginLeft:'-10px', marginRight:'-12px'}}>References</Nav.Link>
           {' -'}
-          <Nav.Link href="/FAQ" style={{fontSize:'medium', fontWeight:'800', marginLeft:'-10px', marginRight:'-12px'}}>FAQs</Nav.Link>
+          <Nav.Link href="#/FAQ" style={{fontSize:'medium', fontWeight:'800', marginLeft:'-10px', marginRight:'-12px'}}>FAQs</Nav.Link>
           {' -'}
           <Nav.Link onClick={()=>window.open('mailto:happetitedevelopers@gmail.com?')} style={{fontSize:'medium', fontWeight:'800', marginLeft:'-10px'}}>Mail Us</Nav.Link>
         </p>

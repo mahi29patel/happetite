@@ -132,7 +132,7 @@ const ModuleHeader = ({ loggedIn, onLogin, user, setUser,
 
     const onFailure = (res) => {
         console.log('Login failed:', res);
-        alert('Google Sign In was unsuccessful. Try again later');
+        // alert('Google Sign In was unsuccessful. Try again later');
   };
   
   const logout = () => {
@@ -158,7 +158,7 @@ const ModuleHeader = ({ loggedIn, onLogin, user, setUser,
             <Navbar.Brand >
           <SideMenu menu={menu} pageWrapId={'page-wrap'} outerContainerId={'outer-container'}  />
           </Navbar.Brand>
-                <Navbar.Brand style={{marginLeft:'30px'}} href="/">HAPPETITE</Navbar.Brand>
+                <Navbar.Brand style={{marginLeft:'30px'}} href="/happetite/#">HAPPETITE</Navbar.Brand>
                 
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">

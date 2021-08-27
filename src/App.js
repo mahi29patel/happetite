@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from 'react';
-import { BrowserRouter as Router, Route ,Switch} from 'react-router-dom';
+import { HashRouter as Router, Route ,Switch} from 'react-router-dom';
 import Home from './components/HomePage/Home';
 import Header from './components/Header';
 import Intro from './components/Intro/Intro';
@@ -99,7 +99,7 @@ const App=()=> {
       />
       
       <Switch>
-        <Route exact path='/happetite'>
+        <Route exact path='/'>
           <Home
         updatedModuleStatus={updatedModuleStatus}
             changeUpdatedModuleStatus={changeUpdatedModuleStatus} />
@@ -123,7 +123,7 @@ const App=()=> {
             user={user}
             setUser={setUser}/></Route>
         
-        <Route path='/cbvyrt'>
+        <Route path='/module1'>
           <Hope
             loggedIn={loggedIn}
             onLogin={setLogin}
@@ -133,7 +133,7 @@ const App=()=> {
             changeUpdatedModuleStatus={changeUpdatedModuleStatus} 
           />
         </Route>
-        <Route path='/dgfrye'>
+        <Route path='/module2'>
           <Module2
             loggedIn={loggedIn}
             onLogin={setLogin}
@@ -145,7 +145,7 @@ const App=()=> {
         </Route>
 
 
-        <Route path='/hjgjte'>
+        <Route path='/module3'>
           <Module3
             loggedIn={loggedIn}
             onLogin={setLogin}
@@ -157,7 +157,7 @@ const App=()=> {
         </Route>
 
         
-      <Route path='/pyitje'>
+      <Route path='/module4'>
           <Module4
             loggedIn={loggedIn}
             onLogin={setLogin}
@@ -212,7 +212,7 @@ const App=()=> {
   changeUpdatedModuleStatus={changeUpdatedModuleStatus} /></Route>
         
 
-       <Route path='/lhkjit'>
+       <Route path='/module5'>
           
           <Module5
             loggedIn={loggedIn}
@@ -223,7 +223,7 @@ const App=()=> {
             changeUpdatedModuleStatus={changeUpdatedModuleStatus}
           />
           </Route>
-          <Route path='/zagfde'>
+          <Route path='/module6'>
           <Module6
             loggedIn={loggedIn}
             onLogin={setLogin}

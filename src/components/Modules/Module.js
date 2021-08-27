@@ -112,7 +112,7 @@ function Module({updatedModuleStatus,changeUpdatedModuleStatus}) {
             width: '30%',
             moduleComplete: updatedModuleStatus.module1_completed,
             open: true,
-            pageUrl:"/cbvyrt"
+            pageUrl:"#/module1"
         }
     ];
     const images2 = [
@@ -124,7 +124,7 @@ function Module({updatedModuleStatus,changeUpdatedModuleStatus}) {
             // open: updatedModuleStatus.module1_completed && updatedModuleStatus.module2_completed
             //     && updatedModuleStatus.module3_completed,
             open: true,
-            pageUrl:"/pyitje"
+            pageUrl:"#/module4"
         }
     ];
     const images3 = [
@@ -135,7 +135,7 @@ function Module({updatedModuleStatus,changeUpdatedModuleStatus}) {
             moduleComplete: updatedModuleStatus.module3_completed,
             // open: updatedModuleStatus.module1_completed && updatedModuleStatus.module2_completed,
             open: true,
-            pageUrl:"/hjgjte"
+            pageUrl:"#/module3"
         },
   
     ];
@@ -150,7 +150,7 @@ function Module({updatedModuleStatus,changeUpdatedModuleStatus}) {
             //     && updatedModuleStatus.module3_completed && updatedModuleStatus.module4_completed
             //     && updatedModuleStatus.module5_completed,
             open: true,
-            pageUrl:"/zagfde"
+            pageUrl:"#/module6"
            
         }
     ];
@@ -163,7 +163,7 @@ function Module({updatedModuleStatus,changeUpdatedModuleStatus}) {
             // open: updatedModuleStatus.module1_completed && updatedModuleStatus.module2_completed
             //     && updatedModuleStatus.module3_completed && updatedModuleStatus.module4_completed,
             open: true,
-            pageUrl:"/lhkjit"
+            pageUrl:"#/module5"
         }
     ];
     const images6 = [
@@ -174,7 +174,7 @@ function Module({updatedModuleStatus,changeUpdatedModuleStatus}) {
             moduleComplete: updatedModuleStatus.module2_completed,
             // open: updatedModuleStatus.module1_completed,
             open: true,
-            pageUrl:"/dgfrye"
+            pageUrl:"#/module2"
             
         }
     ];
