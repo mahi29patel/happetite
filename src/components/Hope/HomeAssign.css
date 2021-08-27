@@ -1,0 +1,52 @@
+.hw-main {
+	background-color: #f9968b5b !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+h2 {
+	margin-bottom: 10px;
+}
+p {
+	margin-left: 190px;
+	margin-right: 190px;
+}
+.column {
+	float: left;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.hw {
+	width: 70%;
+	border: 2px solid black;
+	margin: 70px;
+	background-color: #F9968B;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+h5 {
+	color: black;
+}
+#standard-secondary {
+	margin-right: 15px;
+}
+#outlined-basic {
+	margin-top: 80px;
+}
+.assign-h5 {
+	padding-bottom: 20px;
+}
+
+.outer-box {
+	margin: 70px;
+	background-color: #F9968B !important;
+	padding: 40px;
+	font-size: medium;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

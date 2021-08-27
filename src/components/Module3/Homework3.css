@@ -1,0 +1,49 @@
+.hw3-main {
+	background-color: #eadff3;
+	padding: 50px;
+}
+.hw3-cont {
+	text-align: center;
+	background-color: #DBC6EB !important;
+	padding: 40px;
+		
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.hw3-text {
+	border: none;
+	text-align: center;
+	padding: 60px;
+	width: 80%;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+		
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+	display: block;
+	width: 74%;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.bStyle {
+	padding: 10px;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+	text-align: center;
+	background-color: transparent;
+	border: 2px solid black;
+	color: black;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+.bStyle:hover {
+	background-color: #DBC6EB !important;
+	border: 2px solid black ;
+	color: black;
+	transition: 0.4s;
+}

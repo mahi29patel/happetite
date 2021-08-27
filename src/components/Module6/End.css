@@ -1,0 +1,42 @@
+.end-main {
+	background-color: #f2f5c4;
+	padding: 10px;
+	text-align: center;
+}
+
+.end-cont {
+	background-color: #f1f88f;
+	margin: 40px;
+	padding: 20px 75px 45px 75px;
+	
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.end-text {
+	border: none;
+	text-align: center;
+	padding: 40px;
+	width: 80%;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.ps {
+	padding: 10px;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+	text-align: center;
+	background-color: transparent;
+	border: 2px solid black;
+	color: black;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+.ps:hover {
+	background-color: #f1f88f!important;
+	border: 2px solid black ;
+	color: black;
+	transition: 0.4s;
+}

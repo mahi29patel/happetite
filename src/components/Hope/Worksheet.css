@@ -1,0 +1,28 @@
+.worksheet-main {
+	background-color: #f9968b5b !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: medium;
+}
+.ans-main {
+	font-size: medium;
+	border: none;
+	padding: 60px;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.each-q {
+	padding-bottom: 20px;
+}
+.workbtn {
+	margin: auto;
+}
+.outer-box4 {
+	margin: 70px;
+	background-color: #F9968B !important;
+	padding: 40px;
+	font-size: medium;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

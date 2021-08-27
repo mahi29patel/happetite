@@ -1,0 +1,24 @@
+/** @format */
+
+.review-main1 {
+	background-color: #f9968b5b !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.outer-box-review1 {
+	text-align: center;
+	margin: 70px;
+	background-color: #F9968B !important;
+	padding: 40px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.quiz-review1 {
+	border: none;
+	padding: 20px;
+	width: 80%;
+	margin-left: 10%;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

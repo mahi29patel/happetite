@@ -1,0 +1,27 @@
+.surv-main {
+	background-color: #def0f0;
+	padding: 10px;
+	text-align: center;
+}
+
+.surv-cont {
+	background-color: #B5EAEA;
+	margin: 40px;
+	padding: 20px 75px 45px 75px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.surv-text {
+	border: none;
+	text-align: center;
+	padding: 40px;
+	width: 80%;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+.surv-btn{
+	background-color: black;
+}

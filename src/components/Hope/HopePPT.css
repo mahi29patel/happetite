@@ -1,0 +1,16 @@
+.ppt-main {
+	background-color: #f9968b5b !important;
+	padding: 50px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.outer-box0 {
+	margin: 40px;
+	background-color: #F9968B !important;
+	padding-bottom: 40px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

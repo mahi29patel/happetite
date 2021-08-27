@@ -1,0 +1,41 @@
+.try-main {
+	background-color: #eadff3;
+	padding: 50px;
+}
+
+.try-cont {
+	background-color: #DBC6EB  !important;
+	padding: 40px;
+	text-align: center;
+	
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.try-text {
+	border: none;
+	text-align: center;
+	padding: 60px;
+	width: 80%;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.btnStyle {
+	padding: 10px;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+	text-align: center;
+	background-color: transparent;
+	border: 2px solid black;
+	color: black;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+.btnStyle:hover {
+	background-color: #DBC6EB !important;
+	border: 2px solid black ;
+	color: black;
+	transition: 0.4s;
+}

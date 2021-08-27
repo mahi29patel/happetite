@@ -1,0 +1,20 @@
+.grat-main {
+	background-color: #dfb8af;
+	padding: 50px;
+}
+.grat-cont {
+	text-align: center;
+	background-color: #DF7861 !important;
+	padding-bottom: 50px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.grat-text {
+	border: none;
+	text-align: center;
+	padding: 60px;
+	width: 80%;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

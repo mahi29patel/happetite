@@ -1,0 +1,22 @@
+.vid-main {
+	background-color: #f9968b5b !important;
+	padding: 50px;
+	text-align: center;
+}
+.video {
+	/* padding-bottom: 190px; */
+	padding-bottom: 90px;
+}
+
+h2 {
+	text-align: center;
+}
+.vid-container {
+	margin: auto;
+}
+
+.outer-box1 {
+	margin: 40px;
+	background-color: #F9968B !important;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
