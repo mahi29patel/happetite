@@ -99,7 +99,7 @@ const App=()=> {
       />
       
       <Switch>
-        <Route exact path='/'>
+        <Route exact path='/happetite'>
           <Home
         updatedModuleStatus={updatedModuleStatus}
             changeUpdatedModuleStatus={changeUpdatedModuleStatus} />
