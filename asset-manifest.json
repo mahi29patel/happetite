@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/happetite/static/css/main.55ace832.chunk.css",
-    "main.js": "/happetite/static/js/main.ae1ffc88.chunk.js",
-    "main.js.map": "/happetite/static/js/main.ae1ffc88.chunk.js.map",
+    "main.js": "/happetite/static/js/main.9ec7a44a.chunk.js",
+    "main.js.map": "/happetite/static/js/main.9ec7a44a.chunk.js.map",
     "runtime-main.js": "/happetite/static/js/runtime-main.115dbdee.js",
     "runtime-main.js.map": "/happetite/static/js/runtime-main.115dbdee.js.map",
     "static/css/2.05b98d3a.chunk.css": "/happetite/static/css/2.05b98d3a.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/FAQ.css": "/happetite/static/media/faq.a1f14a27.jpg",
     "static/media/Introtomod2.css": "/happetite/static/media/frame.729726ce.jpg",
     "static/media/green.2cc2f745.jpg": "/happetite/static/media/green.2cc2f745.jpg",
-    "static/media/lady.a953eb9c.jpg": "/happetite/static/media/lady.a953eb9c.jpg",
+    "static/media/lady1.956e1f9b.jpeg": "/happetite/static/media/lady1.956e1f9b.jpeg",
     "static/media/orange.f6e4bade.jpg": "/happetite/static/media/orange.f6e4bade.jpg",
     "static/media/Introtomod6.css": "/happetite/static/media/orangeback.a9230422.jpg",
     "static/media/pink.3ee71a4c.jpg": "/happetite/static/media/pink.3ee71a4c.jpg",
@@ -37,6 +37,6 @@
     "static/css/2.05b98d3a.chunk.css",
     "static/js/2.3453ae46.chunk.js",
     "static/css/main.55ace832.chunk.css",
-    "static/js/main.ae1ffc88.chunk.js"
+    "static/js/main.9ec7a44a.chunk.js"
   ]
 }
