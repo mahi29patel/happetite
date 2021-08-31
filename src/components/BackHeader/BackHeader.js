@@ -127,7 +127,7 @@ useEffect(() => {
 
     const onFailure = (res) => {
         console.log('Login failed:', res);
-        alert('Google Sign In was unsuccessful. Try again later');
+        //alert('Google Sign In was unsuccessful. Try again later');
   };
   
   const logout = () => {

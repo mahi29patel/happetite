@@ -31,7 +31,8 @@ const ContactUs = () => {
     <footer className="footer-distributed">
       <div className="footer-left">
         <h3>Happetite</h3>
-        <p className="footer-links">
+        
+        <p className="footer-links" style={{marginTop:"-20%"}}>
         <Nav.Link  style={{fontSize:'medium', fontWeight:'400'}}><Link
             activeClass="active"
             to="home"
@@ -48,7 +49,10 @@ const ContactUs = () => {
           {' -'}
           <Nav.Link onClick={()=>window.open('mailto:happetitedevelopers@gmail.com?')} style={{fontSize:'medium', fontWeight:'800', marginLeft:'-10px'}}>Mail Us</Nav.Link>
         </p>
-        <p className="footer-company-name">Happetite © 2021</p>
+        <p className="footer-company-name">Happetite ⓒ 2021 - Licensed by:  <br></br>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style={{borderWidth: 0}} src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
+        {/* This work is licensed under a:<br></br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> */}
+        </p>
       </div>
       <div className="footer-right">
         <p>Contact Us</p>

@@ -1,17 +1,17 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import lady from '../../images/lady.jpg'
+import lady from '../../images/lady1.jpeg'
 
 function Intro1() {
   return (
     <div style={{backgroundColor:'#f5edf2', paddingBottom:'60px', paddingTop:'60px'}} id="about">
     <div className="card" style={{width:'1000px', margin: '0 auto',backgroundColor:'white', boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px'}}>
       <div className="row no-gutters">
-        {/* <div className="col-md-4">
+       <div className="col-md-4">
         <img src={lady} width="100%" height="100%"/>
-        </div> */}
+        </div>
         <div className="col-md-8">
-          <div className="card-body" style={{fontWeight:'semi-bold', margin:'20px',width:'950px', alignContent:'center'}}>
+          <div className="card-body" style={{fontWeight:'semi-bold', margin:'10px',width:'620px', alignContent:'center'}}>
             <h5 >Dear participants, I welcome you all to this program.<br></br><br></br>
         {/* <p className="card-text col-md-10" style={{color:'red',marginLeft:'-30px'}}> */}
             I, Ms Freyana Shinde studying in Amity Institute of Behavioural and Allied Sciences, Mumbai am the developer of the program and have designed this program under the supervision of Dr Rekha Wagani as a part of my PhD thesis.
