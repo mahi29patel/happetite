@@ -143,7 +143,7 @@ const Header = ({ loggedIn, onLogin, user, setUser,
     
             
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed='top'>
-      <Navbar.Brand href="/">HAPPETITE</Navbar.Brand>
+      <Navbar.Brand href="/happetite/#">HAPPETITE</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">

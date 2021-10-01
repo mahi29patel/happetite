@@ -2,6 +2,7 @@ import React, { useState,useEffect } from 'react'
 import './HomeAssign.css'
 import { Typography } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
+import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import { refreshTokenSetup } from '../../utils/refreshToken';
@@ -332,7 +333,9 @@ function HomeAssign({ loggedIn, onLogin, user, setUser,
             </div>
             <div className="column">
               <h5 className="assign-h5">Overcoming Obstacles</h5>
-              <TextField id="outlined-basic" label="" variant="outlined" value={homeassign.obs} onChange={(event) => {
+              <TextareaAutosize id="outlined-basic" label=""
+              style={{backgroundColor:'rgba(0, 0, 0, 0)', borderRadius:'5px', padding:'10px'}} 
+              variant="outlined" value={homeassign.obs} onChange={(event) => {
                 sethomeassign({ ...homeassign, obs: event.target.value })
               }} />
 

@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import './Worksheet.css';
-import TextField from '@material-ui/core/TextField';
+import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 import axios from 'axios';
 import { refreshTokenSetup } from '../../utils/refreshToken';
 import { Modal, Button } from 'react-bootstrap';
@@ -291,10 +291,10 @@ function Worksheet({ loggedIn, onLogin, user, setUser, userHelp, setUserHelp,
                 <div className="ans-main">
                     <div className="each-q">
                     <p className="que"><u>Dream:</u> What is one thing you would love for your future?</p>
-                <TextField
+                <TextareaAutosize
                     id="outlined-full-width"
                     label=""
-                    style={{ width: 700 }}
+                    style={{ width:'700px', backgroundColor:'rgba(0, 0, 0, 0)', borderRadius:'5px', padding:'10px'}}
                     placeholder=""
                     fullWidth
                     margin="normal"
@@ -311,10 +311,10 @@ function Worksheet({ loggedIn, onLogin, user, setUser, userHelp, setUserHelp,
                     <p className="que"><u>Plan & Act:</u> What are the small actions you can take at this point, that will start moving you closer towards this dream? <i>[be sure to revisit your plans relatively often]</i></p>
                     
                 
-                <TextField
+                <TextareaAutosize
                     id="outlined-full-width"
                     label=""
-                    style={{ width: 700 }}
+                    style={{ width:'700px', backgroundColor:'rgba(0, 0, 0, 0)', borderRadius:'5px', padding:'10px'}}
                     placeholder=""
                     fullWidth
                     margin="normal"
@@ -331,10 +331,10 @@ function Worksheet({ loggedIn, onLogin, user, setUser, userHelp, setUserHelp,
                     <div className="each-q">
                     <p className="que"><u>Believe:</u> Jot down 3 short sentences that you can use to help remind you of your capability. Put them where you will see them frequently. <i>e.g. I am capable and resourceful</i></p>
                 
-                <TextField
+                <TextareaAutosize
                     id="outlined-full-width"
                     label=""
-                    style={{ width: 700 }}
+                    style={{ width:'700px', backgroundColor:'rgba(0, 0, 0, 0)', borderRadius:'5px', padding:'10px'}}
                     placeholder=""
                     fullWidth
                     margin="normal"

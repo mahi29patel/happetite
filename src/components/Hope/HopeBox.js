@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import './HopeBox.css'
-import TextField from '@material-ui/core/TextField';
+import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 import { refreshTokenSetup } from '../../utils/refreshToken';
 import axios from 'axios';
 import { Modal, Button } from 'react-bootstrap';
@@ -285,7 +285,10 @@ function HopeBox({ loggedIn,onLogin,user,setUser,
 
                 <div className="row">
                 <div className="column">
-                <div className="list"><TextField id="standard-secondary" label="List it down!" color="primary" value={hopebox.list} onChange={(event)=>{
+                  <h6>List it down!</h6>
+                <div className="list"><TextareaAutosize id="standard-secondary" label="List it down!" 
+                style={{backgroundColor:'rgba(0, 0, 0, 0)', borderRadius:'5px', padding:'10px'}}
+                color="primary" value={hopebox.list} onChange={(event)=>{
       sethopebox({ ...hopebox, list: event.target.value})}}/></div>
                 </div>
                 <div className="column">

@@ -7,8 +7,7 @@ import ContactUs from './components/ContactUs/ContactUs';
 import Template from './components/Template/Template';
 import References from './components/References/References';
 import FAQ from './components/FAQ/FAQ';
-
-
+import ScrollToTop from './components/ScrollToTop';
 import Hope from './components/Hope/Hope';
 import Module2 from './components/Module2/Module2';
 import Module3 from './components/Module3/Module3';
@@ -124,6 +123,7 @@ const App=()=> {
             setUser={setUser}/></Route>
         
         <Route path='/module1'>
+        <ScrollToTop/>
           <Hope
             loggedIn={loggedIn}
             onLogin={setLogin}
@@ -134,6 +134,7 @@ const App=()=> {
           />
         </Route>
         <Route path='/module2'>
+        <ScrollToTop/>
           <Module2
             loggedIn={loggedIn}
             onLogin={setLogin}
@@ -146,6 +147,7 @@ const App=()=> {
 
 
         <Route path='/module3'>
+        <ScrollToTop/>
           <Module3
             loggedIn={loggedIn}
             onLogin={setLogin}
@@ -158,6 +160,7 @@ const App=()=> {
 
         
       <Route path='/module4'>
+      <ScrollToTop/>
           <Module4
             loggedIn={loggedIn}
             onLogin={setLogin}
@@ -213,7 +216,7 @@ const App=()=> {
         
 
        <Route path='/module5'>
-          
+       <ScrollToTop/>
           <Module5
             loggedIn={loggedIn}
             onLogin={setLogin}
@@ -224,6 +227,7 @@ const App=()=> {
           />
           </Route>
           <Route path='/module6'>
+          <ScrollToTop/>
           <Module6
             loggedIn={loggedIn}
             onLogin={setLogin}
